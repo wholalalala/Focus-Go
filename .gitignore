@@ -111,6 +111,7 @@ temp/
 .idea/
 .vscode/
 .codex/
+.qoder/
 *.swp
 *.swo
 *~
