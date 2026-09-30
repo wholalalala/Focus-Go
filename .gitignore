@@ -1,0 +1,123 @@
+# Dependencies and package-manager caches (keep package-lock.json)
+node_modules/
+.npm/
+.pnpm-store/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Build output and tool caches
+dist/
+dist-ssr/
+coverage/
+.vite/
+.cache/
+.eslintcache
+.stylelintcache
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
+vitest.config.js
+vitest.config.d.ts
+
+# Environment settings and local credentials
+.env
+.env.*
+!.env.example
+*.local
+.npmrc
+.netrc
+.secrets/
+secrets/
+credentials.json
+credentials.*.json
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+id_rsa
+id_rsa.*
+id_ed25519
+id_ed25519.*
+
+# Local databases, journals, dumps, and backups
+*.db
+*.db-*
+*.db.*
+*.sqlite
+*.sqlite-*
+*.sqlite.*
+*.sqlite3
+*.sqlite3-*
+*.sqlite3.*
+*.mdb
+*.ldb
+*.rdb
+*.dump
+*.dump.*
+*.sql.gz
+*.sql.zip
+*.bak
+*.backup
+/data/
+/databases/
+/storage/
+/backups/
+
+# Child-data exports and private runtime data
+# The source directory src/data/ must remain tracked.
+focusgo-*.json
+focusgo-*.json.*
+/exports/
+/downloads/
+/private/
+/local-data/
+
+# Browser databases/profiles and Playwright authentication/session state
+IndexedDB/
+Local Storage/
+Session Storage/
+.browser-profile/
+.browser-profiles/
+user-data-dir/
+playwright/.auth/
+.auth/
+storageState*.json
+storage-state*.json
+
+# Test reports and generated browser artifacts
+# Keep docs/screenshots/: these are synthetic demo images used by the docs.
+playwright-report/
+playwright/.cache/
+test-results/
+blob-report/
+.nyc_output/
+
+# Logs, process files, and temporary files
+logs/
+*.log
+*.pid
+*.pid.lock
+*.seed
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Local editor/agent settings and OS metadata
+.idea/
+.vscode/
+.codex/
+*.swp
+*.swo
+*~
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/

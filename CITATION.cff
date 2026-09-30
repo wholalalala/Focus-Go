@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this independent research demo, cite the software and the original paradigm references separately."
+title: "Focus&Go: Personal Baseline and Structured Practice"
+type: software
+version: 0.1.0
+date-released: 2026-09-29
+license: Apache-2.0
+authors:
+  - name: "Focus&Go contributors"
+abstract: "A local-first, non-diagnostic demonstration of deterministic cognitive task protocols and evidence-locked AI content."
